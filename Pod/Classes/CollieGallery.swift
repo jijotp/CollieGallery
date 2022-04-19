@@ -294,7 +294,7 @@ open class CollieGallery: UIViewController, UIScrollViewDelegate, CollieGalleryV
         } else {
             actionButton.setTitle("•••", for: UIControl.State())
             actionButton.titleLabel!.font = UIFont(name: "HelveticaNeue-Thin", size: 15)
-            actionButton.setTitleColor(theme.closeButtonColor, for: UIControl.State())
+                                  actionButton.setTitleColor(theme.closeButtonColor, for: UIControl.State())
         }
         
         actionButton.addTarget(self, action: #selector(actionButtonTouched), for: .touchUpInside)
