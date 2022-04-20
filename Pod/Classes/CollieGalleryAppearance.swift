@@ -36,7 +36,7 @@ open class CollieGalleryAppearance: NSObject {
     var progressBarColor = UIColor.white
     
     /// The color of the activity indicator
-    var activityIndicatorColor = UIColor.white
+    var activityIndicatorColor = UIColor.red
     
     /// The color of the close button icon
     var closeButtonColor = UIColor.white
